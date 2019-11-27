@@ -1,0 +1,3 @@
+FROM gcr.io/distroless/java:8
+COPY dockertest.jar .
+CMD ["dockertest.jar"]
